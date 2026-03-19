@@ -8,8 +8,8 @@
 
 ESP8266WebServer server(80);
 
-const char* ssid = "RzeppaHome";
-const char* password = "83218489161830208579";
+const char* ssid = "Your SSID";
+const char* password = "Your Wifi password";
 const char* dns_name = "temperatur";
 
 AM2302::AM2302_Sensor sensor(5);
